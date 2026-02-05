@@ -1,0 +1,10 @@
+[project]
+name = "civitai_meta_gen"
+version = "0.1.0"
+description = "A tool to add metadata to any image to be compatible with civitai"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["piexif>=1.1.3", "pillow>=12.1.0", "typer>=0.21.1"]
+
+[project.scripts]
+civitai-meta-gen = "main:main"
