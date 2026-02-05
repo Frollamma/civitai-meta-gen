@@ -8,10 +8,10 @@ When uploading images to Civitai, the platform requires AI generation metadata t
 
 ## Installation
 
-To install simply run
+To install, clone the repo and simply run
 
 ```sh
-pip install
+pip install -e .
 ```
 
 ## Usage
